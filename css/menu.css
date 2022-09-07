@@ -1,0 +1,48 @@
+body {
+    background-color: lightgray;
+    margin: 5%;
+}
+
+.menu-principal {
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.5);
+    min-width: 500px;
+    text-align: center;
+}
+
+.menu-principal h1 {
+    text-shadow: rgb(255, 0, 0);
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #fff;
+    border-bottom: solid 5px #7c299c9f;
+    padding: 15px 0px;
+    margin: 0;
+}
+
+.menu-principal nav {
+    display: inline-block;
+    background-color: #fff;
+    min-width: 250px;
+}
+
+.menu-principal a {
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2em;
+    border: solid 1px #5996b36c;
+}
+
+.menu-principal a:hover {
+    background: linear-gradient(to right, rgb(8, 8, 95, 0.800), rgb(207, 66, 172, 0.800));
+    color: white;
+    text-decoration: underline wavy white;
+    border: solid 1px #5996b39f;
+}
+
+.menu-principal a:active {
+    border: solid 1px white;
+    background: linear-gradient(to right,  rgb(243, 55, 196),rgb(29, 29, 153));
+}

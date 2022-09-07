@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Pixel';
+    src: url('../fonts/Pixel.ttf');
+}
+
+[wm-flappy] {
+    position: relative;
+    height: 700px;
+    width: 1200px;
+    background-color: rgba(0, 191, 255, 0.4);
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.passaro {
+    position: absolute;
+    width: 60px;
+    left: calc(50% - 30px);
+}
+
+.par-de-barreiras {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.barreira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barreira .borda {
+    height: 30px;
+    width: 130px;
+    background: linear-gradient(90deg, #639301, #A5E82E);
+    border: 2px solid #000;
+}
+
+.barreira .corpo {
+    height: 150px;
+    width: 110px;
+    background: linear-gradient(90deg, #639301, #A5E82E);
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.progresso {
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 70px;
+    z-index: 100;
+}
+
+h1 {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: none;
+    width: 1200px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
