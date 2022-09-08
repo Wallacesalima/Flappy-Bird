@@ -1,3 +1,3 @@
 <p align="center">
-  <img width="460" height="300" src="src/assets/lv_0_20220907130712.gif">
+  <img width="200em" height="400em" src="src/assets/lv_0_20220907130712.gif">
 </p>
